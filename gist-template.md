@@ -9,12 +9,16 @@ what it is and how to use it.
 ```
 /^([a-z0-9_\.-]+)@([\da-z\.-]+)\.([a-z\.]{2,6})$/
 ```
+**The Regex above matches the character sequence of the example email below:**
+```
+email@hotmail.com
+```
 The code snippet above is an example of **Regex** that will be analyzed and explained in the following sections. This **Regex** is used to define
 a sequence of characters that matches the pattern of an email address. A basic email address consists of 4 key properties:
 
-- String of characters and/or digits and/or dots, hyphens and/or underscores
-- The at sign (@)
-- The domain name which can be a string of characters and/or digits
+- String of characters and/or digits and/or dots, hyphens and/or underscores before the @
+- The "at" sign (@)
+- The domain name which can be a string of characters and/or digits after the @ and before the dot (.)
 - The domain extension preceeded by a dot (.)
 
 The **Regex** example above will be split up and analyzed by component in the following sections.
