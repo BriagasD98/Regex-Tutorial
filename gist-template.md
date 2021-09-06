@@ -1,13 +1,21 @@
 # Regex Tutorial
 
-Introductory paragraph (replace this with your text)
+What is **Regex**? Is it a dinosaur? Is it slang for rejects? In the world of programming, **Regex** is short for **Regular Expressions**. **Regex** are incredibly
+useful for isolating information from bodies of text by search patterns. This tool is extremely versatile in that it can be used in almost
+all programming languages. In this **gist**, we'll be analyzing an example of **Regex** in detail hoping to give users a better idea of
+what it is and how to use it.
 
 ## Summary
 ```
 /^([a-z0-9_\.-]+)@([\da-z\.-]+)\.([a-z\.]{2,6})$/
 ```
+The code snippet above is an example of **Regex** that will be analyzed and explained in the following sections. This **Regex** is used to define
+a sequence of characters that matches the pattern of an email address. A basic email address consists of 4 key properties:
 
-Briefly summarize the regex you will be describing and what you will explain. Include a code snippet of the regex. Replace this text with your summary.
+- String of characters and/or digits and/or dots, hyphens and/or underscores
+- The at sign (@)
+- The domain name which can be a string of characters and/or digits
+- The domain extension preceeded by a dot (.)
 
 ## Table of Contents
 
