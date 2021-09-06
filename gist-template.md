@@ -17,6 +17,8 @@ a sequence of characters that matches the pattern of an email address. A basic e
 - The domain name which can be a string of characters and/or digits
 - The domain extension preceeded by a dot (.)
 
+The **Regex** example above will be split up and analyzed by component in the following sections.
+
 ## Table of Contents
 
 - [Anchors](#anchors)
